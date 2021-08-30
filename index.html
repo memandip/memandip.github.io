@@ -1,8 +1,166 @@
-<!doctype html>
-<head>
-  <title>My github homepage</title>
-</head>
-<body>
-  <h1>Stay tuned.</h1>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Igor Kopach – Software Engineer @ SmartBear</title>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="./img/favicon.png" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <link href="./css/font.css" rel="stylesheet" type="text/css" />
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+                width: 100vw;
+                height: 100vh;
+                font-family: Ubuntu, georgia, sans-serif;
+                font-size: 28pt;
+                font-weight: 300;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            @media (max-width: 600px) {
+                body {
+                    font-size: 16pt;
+                }
+            }
+
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            div {
+                text-align: center;
+            }
+
+            em {
+                font-style: normal;
+                font-weight: 500;
+                display: inline-block;
+                margin-right: 0.5em;
+                border-bottom: 3px solid orange;
+            }
+
+            ul,
+            li {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                font-size: 85%;
+                font-style: italic;
+                color: #333;
+            }
+
+            li {
+                margin-top: 1.5em;
+                display: inline-block;
+            }
+
+            li::after {
+                content: "•";
+                margin: 0 0.25em 0 0.5em;
+                width: 0;
+            }
+
+            li:last-child::after {
+                content: "";
+            }
+        </style>
+        <style id="dark-reader-style" type="text/css">
+            html,
+            body,
+            :not([style*="background-color:"]) {
+                background-color: rgb(16, 20, 23) !important;
+            }
+            html,
+            body,
+            :not([style*="color:"]) {
+                color: rgb(255, 249, 237) !important;
+            }
+            h1:not([style*="color:"]),
+            h2:not([style*="color:"]),
+            h3:not([style*="color:"]),
+            h4:not([style*="color:"]),
+            h5:not([style*="color:"]),
+            h6:not([style*="color:"]) {
+                color: rgb(247, 142, 102) !important;
+            }
+            cite:not([style*="color:"]) {
+                color: rgb(128, 204, 148) !important;
+            }
+            input:not([style*="background-color:"]),
+            textarea:not([style*="background-color:"]),
+            button:not([style*="background-color:"]),
+            [role="button"] {
+                background-color: rgb(32, 48, 64) !important;
+            }
+            input:not([style*="background-color:"]):hover,
+            textarea:not([style*="background-color:"]):hover,
+            button:not([style*="background-color:"]):hover,
+            [role="button"]:hover {
+                background-color: rgb(30, 54, 78) !important;
+            }
+            input:not([style*="background-color:"]):active,
+            input:not([style*="background-color:"]):focus,
+            textarea:not([style*="background-color:"]):active,
+            textarea:not([style*="background-color:"]):focus,
+            button:not([style*="background-color:"]):active,
+            button:not([style*="background-color:"]):focus,
+            [role="button"]:active,
+            [role="button"]:focus {
+                background-color: rgb(29, 56, 83) !important;
+            }
+            a:not([style*="color:"]) {
+                color: rgb(128, 182, 204) !important;
+            }
+            a:not([style*="color:"]):hover {
+                color: rgb(142, 193, 217) !important;
+            }
+            a:not([style*="color:"]):active,
+            a:not([style*="color:"]):focus {
+                color: rgb(155, 203, 230) !important;
+            }
+            :not([style*="border-color:"]),
+            ::before,
+            ::after {
+                border-color: rgb(80, 115, 134) !important;
+            }
+            div:empty {
+                background-color: rgb(16, 20, 23) !important;
+            }
+            input::placeholder,
+            textarea::placeholder {
+                color: rgb(167, 158, 139) !important;
+            }
+            input:not([style*="background-image:"]),
+            textarea:not([style*="background-image:"]) {
+                background-image: none !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <em>Mandip Chaudhary</em>Software Engineer
+            <ul>
+                <li><a href="https://github.com/memandip">GitHub</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/memandip">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </body>
 </html>
